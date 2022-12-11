@@ -1,0 +1,118 @@
+body {
+  background-image: url(./sources/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.95;
+  font-size: 1.5rem;
+}
+
+div.CommentCard {
+  width: auto;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: rgb(210, 210, 210);
+  border-radius: 1rem;
+  color: green;
+}
+
+div#mainCommentList.container {
+  border: 2px solid rgb(25, 137, 0);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 1px 1px 2px white, 0 0 25px greenyellow, 0 0 25px green;
+}
+
+#mainInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 8px 20px 8px 20px;
+    
+    margin-bottom: 12px;
+    border-radius: 5px;
+    
+    margin-bottom: 2rem;
+    border: 2px solid rgb(25, 137, 0);
+    box-shadow: 1px 1px 2px white, 0 0 25px greenyellow, 0 0 25px green;
+  }
+
+  input#mainInput {
+    border: none;
+  }
+
+
+  .btn {
+    font-size: 1.5rem;
+  }
+
+  .parent {
+    padding: 10px;
+  }
+
+  .child {
+    padding: 20px;
+  }
+
+  div.row {
+    margin-top: 30px;
+  }
+
+  div.logo {
+    display: flex;
+    justify-content: left;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+  }
+
+  img#logo {
+    border-radius: 5rem;
+  }
+
+  .createdByTime {
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+  }
+
+.like {
+  color: rgb(0, 0, 250) !important;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.reply {
+  color: rgb(220, 90, 0) !important;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.edit {
+  color: rgb(0, 150, 10) !important;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.delete {
+  color: rgb(200, 0, 0) !important;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.like:hover {
+  cursor: pointer;
+}
+
+.reply:hover {
+  cursor: pointer;
+}
+
+.edit:hover {
+  cursor: pointer;
+}
+
+.delete:hover {
+  cursor: pointer;
+}
